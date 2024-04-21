@@ -1,0 +1,790 @@
+* {
+    padding: 0px;
+     margin: 0px;
+     font-family: 'Saira', sans-serif;
+     font-weight: bold;
+
+ }
+
+ body {
+    background-color: #F4F4F9;
+    font-weight: bold;
+ }
+
+ 
+ 
+ 
+ .logo {
+    width: 40%;
+    object-fit: contain;
+    padding-right: 15px;
+    float: right;
+     
+     
+ }
+ 
+ 
+ 
+ .ImgCont {
+     width: 20%;
+     background-color: #41E2BA;
+     display: flex;
+     justify-content: right;
+     border: 3px solid #303030;
+     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+     border-left: none;
+     
+ }
+ 
+ 
+ header {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding-top: 30px;
+ }
+ 
+
+
+.navCont {
+    background-color: #2B2D42;
+    width: 12%;
+    height: 40px;
+    justify-self: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+
+
+}
+.navBtns {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #2B2D42;
+    color: aliceblue;
+    transition: all 0.3s ease;
+    border: 3px solid #2B2D42;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+   
+}
+
+.navBtns:hover  {
+    scale: 1.22;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.3s;
+
+}
+
+
+
+
+#ServicesBtn {
+    color: #2B2D42;
+    background-color: #F7E733;
+}
+
+#PlusBtn {
+    color: #2B2D42;
+    background-color: #E86A92;
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    border-right: none;
+    border: 3px solid #2B2D42;
+    border-right: none;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    width: 12%;
+  
+    text-decoration: none;
+   
+    color: #F4F4F9;
+}
+
+#PlusBtn:hover {
+   background-color:#41E2BA ;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.3s;
+}
+
+#PlusBtn:active {
+    scale: 0.9;
+}
+
+.MainCont {
+    width: 70%;
+    display: flex;
+    height: 70vh;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    
+}
+
+.MainContRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.PopularCont {
+    background-color: #41E2BA;
+    border: 3px solid #2B2D42;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    width: 50%;
+    transition: all 0.3s ease;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.WalkingMan {
+    position: absolute;
+    top: 45%;
+    width: 6%;
+    right: 82%;
+    z-index: 3;
+    pointer-events: none;
+
+}
+
+.PopularCont:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.SearchWink {
+    width: 15%;
+  
+    position: absolute;
+    top: 15%;
+    right:15%;
+    z-index: 2;
+    pointer-events: none;
+    overflow: hidden;
+
+}
+
+
+.SearchContLeft h2 {
+    font-size: 30px;
+}
+
+.SearchBar {
+    width: 90%;
+    height: 100%;
+    
+    background-color: #F4F4F9;
+    border: none;
+    margin: auto;
+    justify-self: center;
+    z-index: 5;
+}
+
+.SearchContLeft {
+    width: 80%;
+}
+
+.SeachBarCont {
+    background-color: #F4F4F9;
+    z-index: 5;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+  
+    display: flex;
+    border:  3px solid #2B2D42;   
+    
+    
+}
+
+.SearchIconCont {
+    background-color: #E86A92;
+    height: 100%;
+  
+    border: 3px solid #2B2D42;
+    margin: auto;
+    padding: 1px 2px 3px 2px;
+    justify-self: center;
+    z-index: 5;
+}
+
+.SearchCont {
+    background-color: #F7E733;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    border: 3px solid #2B2D42;
+    height: 48%;
+    width: 100%;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.SearchCont:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.PlusCont {
+
+    height: 48%;
+    width: 100%;
+    background-color: #E86A92;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    border: 3px solid #2B2D42;
+    transition: all 0.3s ease;
+
+  
+}
+
+.PlusCont:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.ClcxLogo {
+    width:25%;
+    padding: 10px;
+
+}
+
+.SubBtn {
+   
+    text-transform: uppercase;
+    text-align: left;
+    background-color: #F7E733;
+    color: #2B2D42;
+    transition: all 0.3s ease;
+    border: 3px solid #2B2D42;
+    border-right: none;
+    cursor: pointer;
+  height: fit-content;
+  margin-top: 15px;
+    
+
+}
+
+.SubBtn:active {
+    scale: 0.9;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+    border-right: 3px solid #2B2D42;
+
+}
+
+.MainCont h2, .MainCont p, .SubBtn {
+    padding: 10px;
+}
+
+.SubNowCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogoCont {
+    display: flex;
+
+    font-size: 20px;
+    margin: auto;
+   
+}
+
+.PlusLogo {
+    width: 10%;
+    object-fit: contain;
+}
+
+.PopularBtnsCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    
+    
+}
+
+.ServicesPopUp {
+    width: 100%;
+    display: flex;
+    background-color: #F7E733;
+    
+    
+    border: 3px solid #2B2D42;
+    display: none;
+   position: absolute;
+   z-index: 8;
+   
+}
+
+.ServicesPopUpCont {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+.PopularBtns {
+    width: 90%;
+    margin-top: 5px;
+    height: 8vh;
+    margin: auto auto 10px;
+    border: 3px solid #2B2D42;
+    text-align: start;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: #F4F4F9;
+    font-size: 15px;
+    z-index: 4;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+   
+}
+
+.ServicesBtnsPopUp {
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #2B2D42;
+    text-align: start;
+    background-color: #F4F4F9;
+    font-size: 15px;
+    z-index: 4;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    transition: 0.3s all ease;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    color: #2B2D42;
+
+}
+
+
+.ServicesBtnsPopUp:active {
+    scale: 0.9;
+}
+
+.ServicesBtnsPopUp:hover {
+    background-color: #F7E733;
+ 
+
+}
+
+
+
+.PopularBtns:hover {
+    background-color: #41E2BA;
+}
+
+.PopularCont h2 {
+    margin-left: 20px;
+}
+
+.PopularBtnsCont i {
+    float: right;
+    
+}
+
+.space {
+    background-color: #2B2D42;
+    width: 65%;
+    height: 40px;
+    justify-self: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.gotItCont {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    width: 100%;
+  
+  
+}
+
+.space h1 {
+    padding-left: 40px;
+    color: #F4F4F9;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.space2 {
+    background-color: #2B2D42;
+    width: 5%;
+    height: 40px;
+    justify-self: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.ServicesCont {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.ServiceBtns {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #2B2D42;
+    color: aliceblue;
+    transition: all 0.3s ease;
+    border: 3px solid #2B2D42;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+}
+
+.ServiceBtns:active {
+    scale: 0.9;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+  
+
+}
+
+
+
+.BtnsCont {
+    background-color: #2B2D42;
+    width: 20%;
+    height: 40px;
+    
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.space3 {
+    background-color: #2B2D42;
+    width: 5%;
+    height: 40px;
+    
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+#pink {
+    background-color: #E86A92;
+    color: #2B2D42;
+}
+
+#green {
+    background-color: #41E2BA;
+    color: #2B2D42;
+}
+
+#CreateAccPopUp {
+    display: flex;
+    flex-direction: column;
+}
+
+#CreateAccPopUp input {
+    width: 80%;
+}
+
+.LatestWorkSellerMain {
+    width: 70%;
+    display: flex;
+    height: 70vh;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    z-index: 5;
+ 
+
+}
+
+
+.SellerCont {
+    background-color: #E86A92;
+    border: 3px solid #2B2D42;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    width: 65%;
+    transition: all 0.3s ease;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.SellerCont:hover , .LatestWorkCont:hover  {
+    transform: scale(1.07);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.LatestWorkCont {
+    background-color: #41E2BA;
+    border: 3px solid #2B2D42;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    width: 32%;
+    transition: all 0.3s ease;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+ 
+ 
+
+}
+
+.sellerImg {
+    width: 12%;
+    position: absolute;
+    top: 127%;
+    pointer-events: none;
+    left: 13%;
+    z-index: 3;
+    
+}
+
+.sellerContent {
+  
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+
+   
+}
+
+.sellerContent h1 {
+  margin: 10px;
+  font-size: 35px;
+  
+
+
+}
+
+.sellerContent p {
+    margin: 10px
+}
+
+.sellerContent i {
+    color: #F4F4F9;
+    padding-right: 5px;
+}
+
+.SellerBtn {
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+  
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #F7E733;
+    color: #2B2D42;
+    transition: all 0.3s ease;
+    border: 3px solid #2B2D42;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+
+}
+
+.SellerBtn:hover {
+    background-color: #F4F4F9;
+}
+
+.SellerBtn:active , .LatestWorkBtn:active {
+    scale: 0.9;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.LatestWorkCont h1 {
+    margin: 10px;
+}
+
+.LatestBtnsCont {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.LatestWorkBtn {
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+  
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #F4F4F9;
+    color: #2B2D42;
+    transition: all 0.3s ease;
+    border: 3px solid #2B2D42;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+
+}
+
+.LatestWorkBtn:hover {
+    background-color: #41E2BA;
+}
+
+.footer {
+    display: flex;
+    margin-top: 80px;
+   
+    justify-content: space-between;
+    
+}
+
+.footerBtns {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: none;
+    color: #2B2D42;
+    transition: all 0.3s ease;
+    border: 3px solid #2B2D42;
+   
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+
+}
+
+.footerBtnsCont {
+    height: 40px;
+    border: 3px solid #2B2D42 ;
+
+}
+
+.footerbtnsCont {
+  
+    width: 19%;
+    height: 40px;
+    display: flex;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    
+}
+
+.FooterLogo {
+    width: 10%;
+}
+
+.footerLogoCont {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7E733;
+
+    margin-top: 15px;
+    border-top: 3px solid #2B2D42;
+  
+
+}
+
+.footerLogoCont i {
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.ICont {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#SpaceFooter {
+    background-color: #F7E733;
+}
+
+#QuickLinkBtn {
+    background-color: #E86A92;
+}
+
+#Addressbtn {
+    background-color: #41E2BA;
+}
+
+#SocialBtn {
+    background-color: #E86A92;
+}
+
+#ClckxPlusFooter {
+    background-color: #41E2BA;
+}
+
+.footerPopUp {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+}
+
+.FooterPopUps {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    width: 17%;
+    z-index: 8;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+    border: 3px solid #2B2D42;
+    display: none;
+
+
+   
+}
+
+#QuickLinksPopUp , #SocialMediaPopUp {
+    background-color: #E86A92;
+   
+    z-index: 10;
+}
+
+.FooterPopUps button {
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.FooterBtnspace {
+    background-color: #F4F4F9;
+    border: none;
+}
+
+#SpaceFooter {
+    pointer-events: none;
+
+}
+
+#AddressPopUp , #PlusPopUP {
+    background-color: #41E2BA;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
